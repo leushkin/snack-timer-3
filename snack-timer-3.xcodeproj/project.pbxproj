@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD7D8E32C0CFFFE007A93BC /* snack-timer-3 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */; };
+		DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */; };
+		DAD7D8EC2C0CFFFF007A93BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD7D8EB2C0CFFFF007A93BC /* Assets.xcassets */; };
+		DAD7D8EF2C0CFFFF007A93BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD7D8EE2C0CFFFF007A93BC /* Preview Assets.xcassets */; };
+		DAD7D8F92C0CFFFF007A93BC /* snack_timer_3_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8F82C0CFFFF007A93BC /* snack_timer_3_Watch_AppTests.swift */; };
+		DAD7D9032C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D9022C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITests.swift */; };
+		DAD7D9052C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D9042C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD7D8E42C0CFFFE007A93BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD7D8D62C0CFFFD007A93BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD7D8E12C0CFFFE007A93BC;
+			remoteInfo = "snack-timer-3 Watch App";
+		};
+		DAD7D8F52C0CFFFF007A93BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD7D8D62C0CFFFD007A93BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD7D8E12C0CFFFE007A93BC;
+			remoteInfo = "snack-timer-3 Watch App";
+		};
+		DAD7D8FF2C0CFFFF007A93BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD7D8D62C0CFFFD007A93BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD7D8E12C0CFFFE007A93BC;
+			remoteInfo = "snack-timer-3 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAD7D90B2C0CFFFF007A93BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DAD7D8E32C0CFFFE007A93BC /* snack-timer-3 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DAD7D8DC2C0CFFFE007A93BC /* snack-timer-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3App.swift; sourceTree = "<group>"; };
+		DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAD7D8EB2C0CFFFF007A93BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD7D8EE2C0CFFFF007A93BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAD7D8F42C0CFFFF007A93BC /* snack-timer-3 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snack-timer-3 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7D8F82C0CFFFF007A93BC /* snack_timer_3_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3_Watch_AppTests.swift; sourceTree = "<group>"; };
+		DAD7D8FE2C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snack-timer-3 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD7D9022C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		DAD7D9042C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD7D8DF2C0CFFFE007A93BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8F12C0CFFFF007A93BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8FB2C0CFFFF007A93BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD7D8D52C0CFFFD007A93BC = {
+			isa = PBXGroup;
+			children = (
+				DAD7D8E62C0CFFFE007A93BC /* snack-timer-3 Watch App */,
+				DAD7D8F72C0CFFFF007A93BC /* snack-timer-3 Watch AppTests */,
+				DAD7D9012C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests */,
+				DAD7D8DD2C0CFFFE007A93BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD7D8DD2C0CFFFE007A93BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D8DC2C0CFFFE007A93BC /* snack-timer-3.app */,
+				DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */,
+				DAD7D8F42C0CFFFF007A93BC /* snack-timer-3 Watch AppTests.xctest */,
+				DAD7D8FE2C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD7D8E62C0CFFFE007A93BC /* snack-timer-3 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */,
+				DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */,
+				DAD7D8EB2C0CFFFF007A93BC /* Assets.xcassets */,
+				DAD7D8ED2C0CFFFF007A93BC /* Preview Content */,
+			);
+			path = "snack-timer-3 Watch App";
+			sourceTree = "<group>";
+		};
+		DAD7D8ED2C0CFFFF007A93BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D8EE2C0CFFFF007A93BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAD7D8F72C0CFFFF007A93BC /* snack-timer-3 Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D8F82C0CFFFF007A93BC /* snack_timer_3_Watch_AppTests.swift */,
+			);
+			path = "snack-timer-3 Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DAD7D9012C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD7D9022C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITests.swift */,
+				DAD7D9042C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "snack-timer-3 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD7D8DB2C0CFFFE007A93BC /* snack-timer-3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7D90C2C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3" */;
+			buildPhases = (
+				DAD7D8DA2C0CFFFE007A93BC /* Resources */,
+				DAD7D90B2C0CFFFF007A93BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD7D8E52C0CFFFE007A93BC /* PBXTargetDependency */,
+			);
+			name = "snack-timer-3";
+			productName = "snack-timer-3";
+			productReference = DAD7D8DC2C0CFFFE007A93BC /* snack-timer-3.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DAD7D8E12C0CFFFE007A93BC /* snack-timer-3 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7D9082C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch App" */;
+			buildPhases = (
+				DAD7D8DE2C0CFFFE007A93BC /* Sources */,
+				DAD7D8DF2C0CFFFE007A93BC /* Frameworks */,
+				DAD7D8E02C0CFFFE007A93BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snack-timer-3 Watch App";
+			productName = "snack-timer-3 Watch App";
+			productReference = DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD7D8F32C0CFFFF007A93BC /* snack-timer-3 Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7D90F2C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch AppTests" */;
+			buildPhases = (
+				DAD7D8F02C0CFFFF007A93BC /* Sources */,
+				DAD7D8F12C0CFFFF007A93BC /* Frameworks */,
+				DAD7D8F22C0CFFFF007A93BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD7D8F62C0CFFFF007A93BC /* PBXTargetDependency */,
+			);
+			name = "snack-timer-3 Watch AppTests";
+			productName = "snack-timer-3 Watch AppTests";
+			productReference = DAD7D8F42C0CFFFF007A93BC /* snack-timer-3 Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD7D8FD2C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD7D9122C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch AppUITests" */;
+			buildPhases = (
+				DAD7D8FA2C0CFFFF007A93BC /* Sources */,
+				DAD7D8FB2C0CFFFF007A93BC /* Frameworks */,
+				DAD7D8FC2C0CFFFF007A93BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD7D9002C0CFFFF007A93BC /* PBXTargetDependency */,
+			);
+			name = "snack-timer-3 Watch AppUITests";
+			productName = "snack-timer-3 Watch AppUITests";
+			productReference = DAD7D8FE2C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD7D8D62C0CFFFD007A93BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DAD7D8DB2C0CFFFE007A93BC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAD7D8E12C0CFFFE007A93BC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					DAD7D8F32C0CFFFF007A93BC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAD7D8E12C0CFFFE007A93BC;
+					};
+					DAD7D8FD2C0CFFFF007A93BC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = DAD7D8E12C0CFFFE007A93BC;
+					};
+				};
+			};
+			buildConfigurationList = DAD7D8D92C0CFFFD007A93BC /* Build configuration list for PBXProject "snack-timer-3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD7D8D52C0CFFFD007A93BC;
+			productRefGroup = DAD7D8DD2C0CFFFE007A93BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD7D8DB2C0CFFFE007A93BC /* snack-timer-3 */,
+				DAD7D8E12C0CFFFE007A93BC /* snack-timer-3 Watch App */,
+				DAD7D8F32C0CFFFF007A93BC /* snack-timer-3 Watch AppTests */,
+				DAD7D8FD2C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD7D8DA2C0CFFFE007A93BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8E02C0CFFFE007A93BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7D8EF2C0CFFFF007A93BC /* Preview Assets.xcassets in Resources */,
+				DAD7D8EC2C0CFFFF007A93BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8F22C0CFFFF007A93BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8FC2C0CFFFF007A93BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD7D8DE2C0CFFFE007A93BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */,
+				DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8F02C0CFFFF007A93BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7D8F92C0CFFFF007A93BC /* snack_timer_3_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD7D8FA2C0CFFFF007A93BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD7D9032C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITests.swift in Sources */,
+				DAD7D9052C0CFFFF007A93BC /* snack_timer_3_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD7D8E52C0CFFFE007A93BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD7D8E12C0CFFFE007A93BC /* snack-timer-3 Watch App */;
+			targetProxy = DAD7D8E42C0CFFFE007A93BC /* PBXContainerItemProxy */;
+		};
+		DAD7D8F62C0CFFFF007A93BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD7D8E12C0CFFFE007A93BC /* snack-timer-3 Watch App */;
+			targetProxy = DAD7D8F52C0CFFFF007A93BC /* PBXContainerItemProxy */;
+		};
+		DAD7D9002C0CFFFF007A93BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD7D8E12C0CFFFE007A93BC /* snack-timer-3 Watch App */;
+			targetProxy = DAD7D8FF2C0CFFFF007A93BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAD7D9062C0CFFFF007A93BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAD7D9072C0CFFFF007A93BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DAD7D9092C0CFFFF007A93BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snack-timer-3 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "snack-timer-3";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD7D90A2C0CFFFF007A93BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"snack-timer-3 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "snack-timer-3";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DAD7D90D2C0CFFFF007A93BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				INFOPLIST_KEY_CFBundleDisplayName = "snack-timer-3";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DAD7D90E2C0CFFFF007A93BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				INFOPLIST_KEY_CFBundleDisplayName = "snack-timer-3";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD7D9102C0CFFFF007A93BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snack-timer-3 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snack-timer-3 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD7D9112C0CFFFF007A93BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snack-timer-3 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/snack-timer-3 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		DAD7D9132C0CFFFF007A93BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "snack-timer-3 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		DAD7D9142C0CFFFF007A93BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UJAH2V3XUP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kirill.leushkin.snack-timer-3-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "snack-timer-3 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD7D8D92C0CFFFD007A93BC /* Build configuration list for PBXProject "snack-timer-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7D9062C0CFFFF007A93BC /* Debug */,
+				DAD7D9072C0CFFFF007A93BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7D9082C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7D9092C0CFFFF007A93BC /* Debug */,
+				DAD7D90A2C0CFFFF007A93BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7D90C2C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7D90D2C0CFFFF007A93BC /* Debug */,
+				DAD7D90E2C0CFFFF007A93BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7D90F2C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7D9102C0CFFFF007A93BC /* Debug */,
+				DAD7D9112C0CFFFF007A93BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD7D9122C0CFFFF007A93BC /* Build configuration list for PBXNativeTarget "snack-timer-3 Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD7D9132C0CFFFF007A93BC /* Debug */,
+				DAD7D9142C0CFFFF007A93BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD7D8D62C0CFFFD007A93BC /* Project object */;
+}
