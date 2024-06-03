@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA7390EA2C0DA2EC00F21F4E /* EntrtainmentDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7390E92C0DA2EC00F21F4E /* EntrtainmentDurationView.swift */; };
+		DAC961D12C0DC9E700B687E1 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC961D02C0DC9E700B687E1 /* StatisticsView.swift */; };
 		DAD7D8E32C0CFFFE007A93BC /* snack-timer-3 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */; };
 		DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */; };
@@ -58,6 +59,7 @@
 
 /* Begin PBXFileReference section */
 		DA7390E92C0DA2EC00F21F4E /* EntrtainmentDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrtainmentDurationView.swift; sourceTree = "<group>"; };
+		DAC961D02C0DC9E700B687E1 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		DAD7D8DC2C0CFFFE007A93BC /* snack-timer-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3App.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		DAD7D8D52C0CFFFD007A93BC = {
 			isa = PBXGroup;
 			children = (
+				DAC961D02C0DC9E700B687E1 /* StatisticsView.swift */,
 				DAD7D8E62C0CFFFE007A93BC /* snack-timer-3 Watch App */,
 				DAD7D8F72C0CFFFF007A93BC /* snack-timer-3 Watch AppTests */,
 				DAD7D9012C0CFFFF007A93BC /* snack-timer-3 Watch AppUITests */,
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7390EA2C0DA2EC00F21F4E /* EntrtainmentDurationView.swift in Sources */,
+				DAC961D12C0DC9E700B687E1 /* StatisticsView.swift in Sources */,
 				DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */,
 				DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */,
 			);

@@ -22,8 +22,8 @@ struct Snack: SnackItem {
 }
 
 let snacks: [Snack] = [
-    Snack(id: "1", name: "Pringles", amount: 100, weight: 120),
-    Snack(id: "2", name: "Lays", amount: 100, weight: 120),
+    Snack(id: "1", name: "Pringles", amount: 80, weight: 165),
+//    Snack(id: "2", name: "Lays", amount: 100, weight: 120),
 ]
 
 struct ContentView: View {

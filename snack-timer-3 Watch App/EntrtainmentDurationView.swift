@@ -68,6 +68,11 @@ struct EntrtainmentDurationView: View {
                 } footer: {
                     Text("This percentage represents which percentage of the film you are going to enjoy your snack. For example now you will be notified with a gap of \(gapToString()).")
                 }
+                
+                NavigationLink("Start watching") {
+                    StatisticsView(snack: snack, interval: calculateNotificationGap())
+                }
+                    
             }
         }
         .navigationTitle(snack.name)
