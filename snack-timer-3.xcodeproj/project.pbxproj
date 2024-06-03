@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7390EA2C0DA2EC00F21F4E /* EntrtainmentDurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7390E92C0DA2EC00F21F4E /* EntrtainmentDurationView.swift */; };
 		DAD7D8E32C0CFFFE007A93BC /* snack-timer-3 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */; };
 		DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA7390E92C0DA2EC00F21F4E /* EntrtainmentDurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrtainmentDurationView.swift; sourceTree = "<group>"; };
 		DAD7D8DC2C0CFFFE007A93BC /* snack-timer-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD7D8E22C0CFFFE007A93BC /* snack-timer-3 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snack-timer-3 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snack_timer_3App.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			children = (
 				DAD7D8E72C0CFFFE007A93BC /* snack_timer_3App.swift */,
 				DAD7D8E92C0CFFFE007A93BC /* ContentView.swift */,
+				DA7390E92C0DA2EC00F21F4E /* EntrtainmentDurationView.swift */,
 				DAD7D8EB2C0CFFFF007A93BC /* Assets.xcassets */,
 				DAD7D8ED2C0CFFFF007A93BC /* Preview Content */,
 			);
@@ -309,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA7390EA2C0DA2EC00F21F4E /* EntrtainmentDurationView.swift in Sources */,
 				DAD7D8EA2C0CFFFE007A93BC /* ContentView.swift in Sources */,
 				DAD7D8E82C0CFFFE007A93BC /* snack_timer_3App.swift in Sources */,
 			);
