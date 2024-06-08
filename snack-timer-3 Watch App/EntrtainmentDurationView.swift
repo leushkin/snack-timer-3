@@ -10,7 +10,7 @@ import SwiftUI
 struct EntrtainmentDurationView: View {
     var snack: Snack;
     
-    @State private var percentage: Double = 25
+    @State private var percentage: Double = 50
     
     @State private var hours = 1
     @State private var minutes = 30
